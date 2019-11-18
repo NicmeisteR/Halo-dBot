@@ -1,0 +1,36 @@
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light customNav">
+    <a class="navbar-brand" routerLink="/home" routerLinkActive="active">
+      <img src="assets/images/RoninBotShine.jpg" alt="login logo" class="logo" height="40" style="border-radius: 50%;">
+    </a>
+    <!-- <a class="navbar-brand pink" routerLink="/home">Internal</a>-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      id="btn_Menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- <span class="navbar-toggler-icon"></span> -->
+      <i class="navbar-toggler-icon fas fa-bars" style="margin-top: 10px; font-size:26px"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/commands" routerLinkActive="active">Commands</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto login">
+        <li class="nav-item">
+          <a class="nav-link join" href="https://discord.gg/MTWQMf" target="_blank"><i class="fab fa-discord"></i> <span style="font-weight: bold; margin-left:10px">Join</span></a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" data-target="#exampleModal" routerLink="/user/"><i class="fab fa-discord"></i> Invite to Server</a>
+        </li> -->
+      </ul>
+    </div>
+  </nav>
+</div>
+  <router-outlet></router-outlet>

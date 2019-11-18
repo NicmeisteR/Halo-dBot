@@ -1,0 +1,68 @@
+.intro {
+    text-align: center;
+    padding-top: 240px;
+    padding-bottom: 240px;
+
+    h1 {
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 19px;
+        // margin-top: 15px;
+        margin-bottom: 18px;
+        text-align: center;
+        line-height: 1.8;
+    }
+}
+
+.summary {
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 18px;
+    line-height: 1.8;
+}
+
+.btn-lg {
+    height: 60px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 300px;
+    margin-right: 40px;
+
+    // .fa-discord {
+    //     font-size: 28px;
+    //     font-weight: normal;
+    // }
+}
+
+.btn-primary {
+    background: #7289da;
+}
+
+.edges {
+    border-radius: 12px;
+    // box-shadow: 10px 10px;
+    box-shadow: 0px 0px 10px 10px;
+}
+
+.edges-left {
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 10px;
+}
+
+h2 {
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+}
+
+.section {
+    padding: 80px;
+    margin-bottom: 120px;
+}
+
+.text {
+    margin-top:120px;
+    margin-left: 80px;
+}
