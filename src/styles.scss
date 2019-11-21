@@ -36,6 +36,11 @@ body {
     border-color: #23b69c;
 }
 
+.btn-secondary {
+    background: #7289da !important;
+    border-color: #7289da;
+}
+
 .btn-primary:hover, .btn-primary:focus {
     color: #fff;
     background-color: #1f9983 !important;
@@ -45,7 +50,7 @@ body {
 
 .btn-secondary:hover, .btn-secondary:focus {
     color: #fff;
-    background-color: #545b62 !important;
-    border-color: #545b62 !important;
-    box-shadow: 8px 8px 2px #6c757d;
+    background-color: #7289dabc !important;
+    border-color: #7289dabc !important;
+    box-shadow: 8px 8px 2px #7289da;
 }

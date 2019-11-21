@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/halodbot",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
