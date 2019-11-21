@@ -22,8 +22,6 @@ jobs:
         npm install -g @angular/cli
         npm install
         ng build --prod
-        npm i ${{ secrets.apitoken }}
     - name: build project
       run: |
         ng build --prod
-        
