@@ -1,0 +1,45 @@
+{
+  "content": [
+    {
+      "name": "%com",
+      "format": "[Company]",
+      "aliases": [
+        "%c"
+      ],
+      "description": "Percent of company kill commendation completed.\n`%com Spartan Company`",
+      "examples": [
+        "%com Spartan Company"
+      ],
+      "args": [
+        "Company"
+      ]
+    },
+    {
+      "name": "members",
+      "format": "[Company]",
+      "aliases": [],
+      "description": "List all company members.\n`!members Spartan Company`",
+      "examples": [
+        "members Spartan Company"
+      ],
+      "args": [
+        "Company"
+      ]
+    },
+    {
+      "name": "setco",
+      "format": "<Company>",
+      "aliases": [
+        "sc"
+      ],
+      "description": " Save your Spartan Company to my database.\n`!setco Spartan Company`",
+      "examples": [
+        "setco Company"
+      ],
+      "args": [
+        "Company"
+      ]
+    }
+  ],
+  "since": 1572648681578
+}
