@@ -7,3 +7,17 @@
     text-align: center;
     line-height: 18px;
 }
+
+.navbar-toggler-icon {
+    color: #23b69c !important;
+    border: none !important;
+}
+
+.navbar-toggler {
+    color: transparent;
+    border-color: transparent;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: none !important;
+}
